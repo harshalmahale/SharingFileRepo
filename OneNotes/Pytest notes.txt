@@ -1,0 +1,39 @@
+In file name it should begin with
+_test or test_
+
+In method name
+test_
+
+Pytest -v    ----> shows whole details.
+
+pytest -sv  <filename_test.py>   ----> to check the print messages
+
+pytest .\a_simple_examples_test.py -k passing ----->  -k <expression> is used to represent the substring to match
+
+pytest -sv --lf .\a_simple_examples_test.py ----> rerun only failed tests
+
+pytest -sv --ff .\a_simple_examples_test.py  ---->run all the tests, rerun failed tests first and then other tests
+
+Class name should start with Test otherwise it would skip during pytest discovery
+
+To print the reason pytest -r is used
+
+Fixtures are functions, which will run before each test function to which it is applied.
+
+Fixtures are used to feed some data to the tests
+
+Parameterizing of a test is done to run the test against multiple sets of inputs.
+
+
+
+
+	1. Sets
+	2. Offers
+	3. Will be
+	4. To gets 
+	5. Has
+	6. Wants
+	7. Are
+	8. Planned
+	9. Uses
+Utilized

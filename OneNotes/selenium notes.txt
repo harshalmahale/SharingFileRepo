@@ -1,0 +1,66 @@
+Locators --> are the address that identify a web element uniquely within the page
+
+Id
+Name
+Linklist
+Class name
+Tagname
+
+Customize locator
+Css selector
+Xpath
+
+8 locators are there 
+Id name are default one
+
+Xpath
+ 
+Absolute / Full xpath -------> starts from root html node
+Relative / Partial xpath-----> directly jump to element on DOM
+
+Close() ------> close single browser window (where driver focused )
+Quit()   ------> close multiple browser windows (this will killed the process)
+
+Text  --------> returns inner attribute of web element
+Get_attribute ----> returns value of any attribute of web element
+
+>>>> Implicit wait should be return after creating object 
+>>>> Explicit wait works on the particular element based on condition
+
+1.Application commands
+2.Conditional commands
+3.Browser commands
+4.Navigational commands
+5.Wait commands
+
+Alert / Pop ups
+
+If the alert box has 2 inputs we have to bypass the creditional in URL.
+Syntax: http://username:password@test.com
+
+Frame:
+
+Driver cannot switch one Frame to another frame It should be go to main page then switch to frame as according
+
+We use default content to go back to main page
+
+Inner Frame
+
+Mouse Operations
+
+1 Mouse hover ----> move_to_element (element)
+2.Right click--------->context_click(element)
+3.Double click------>double_click(element)
+4.Drag and drop--->drag_and_drop(source,target)
+
+Openpyxl -----> We can work with the Exel files.
+
+
+Database server : It is a area where the data is store.
+Database client : It is a software where we can connect the server 
+
+DDL  : Create,alter, drop, truncate
+DML : Insert, Update, Delete
+DRL  : Select
+TCL : commit , rollback
+DCL : grant , revoke

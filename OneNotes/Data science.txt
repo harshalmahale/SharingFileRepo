@@ -1,0 +1,146 @@
+To open file in jupyter use jupyter notebook . &
+
+To save the data frame we use df.to_csv(' ')
+
+Panda library is used to create dataframe and series
+
+A DataFrame is a two-dimensional data structure, i.e., data is aligned in a tabular fashion in rows and columns.
+
+Series represents a one-dimensional array of indexed data. It has two main components :
+
+ An array of actual data.
+ An associated array of indexes or data labels.
+
+loc() is a label-based data selecting method which means that we have to pass the name of the row or column that we want to select.
+
+• loc[row_label, column_label]
+
+iloc() is an indexed-based selecting method which means that we have to pass an integer index in the method to select a specific row/column. This method does not include the last element of the range passed in it.
+
+iloc[index row , index column ]
+
+Numpy
+
+Linspace -Linspace returns evenly spaced numbers over a specified interval.
+
+numpy.linspace(start, stop, num = int value)
+
+start : start of interval range
+stop : end of interval range
+num : Number of samples to generate.
+
+Application Protocol Interface.
+
+API - A set of rules and protocols that enable different software applications to communicate and exchange information.
+
+Rest API -
+
+RE - REpresentational 
+S - state
+T - transfer
+
+Rest API used to interact with the web services, Applications that you call through the internet
+ 
+Set of rules -
+	1. Communications
+	2. Input or Request
+	3. Output or Response
+
+Overview of HTTP
+
+Scheme: The protocol for this lab it will always be http://
+Internet address or base Url: used to find the location eg, www.ibm.com
+Route: Location on the web server, for eg.. /images/IDSNlogo.png
+
+Requests is a python Library that allows you to send HTTP/1.1 requests easily.
+
+Get request sends the data in the URL 
+POST request sends additional data in the request body
+
+In order to send the Post Request in the URL, we change the route to POST: 
+
+
+
+GET:- Retrieves data from the server
+POST:- Submits data to the server and sending additional information in message body to the server.
+PUT:- Updates data already on server
+DELETE:- Deletes data from the server
+
+ 
+Requests is a Python Library that allows you to send HTTP/1.1 requests easily
+
+CSRF - 
+Cross-Site Request Forgery (CSRF) is an attack that forces authenticated users to submit a request to a Web application against which they are currently authenticated. CSRF attacks exploit the trust a Web application has in an authenticated user.
+
+
+To remove byte in the text we have to write decode() fun in front of content.
+
+Beautiful Soup transforms a complex HTML document into a complex tree of Python objects
+It is a python library used for web scraping purposes to pull the data out of the Html and Xml files
+It is easy and manipulate data from web pages.
+
+We can use the method prettify() to display the HTML in the nested structure:
+
+ The JSON library in Python uses the dump() or dumps() function to convert the Python objects into their respective JSON object. 
+
+json.dump() method can be used for writing to JSON file is called as serialization 
+
+Syntax: json.dump(dict, file_pointer)
+
+json.dumps() that helps in converting a dictionary to a JSON object.
+It takes two parameters:
+
+	1. dictionary – name of the dictionary which should be converted to JSON object.
+	2. indent – defines the number of units for indentation
+
+Reading JSON to the file is know as deserialization 
+
+PIL is the Python Imaging Library which provides the python interpreter with image editing capabilities.
+
+The yfinance is a Python library that provides a user-friendly interface for downloading historical market data from Yahoo Finance
+
+<table> - Use to start and end the table
+<tr> - Use to define table row
+<td> - Use to define table cell
+<th> - Use to define header cell of table
+<tbody> - Main content of table
+
+
+pd.read_html(url) is a function provided by the pandas library in Python that is used to extract tables from HTML web pages. It takes in a URL as input and returns a list of all the tables found on the web page.
+
+
+Data Science Course
+
+	
+	1. Working with data in Python
+	2. How to read and write files
+	3. Python libraries that will aid in data manipulation and mathematical operations.
+	4. Collect data by the use of APIs and webscraping.
+	5. Data collection by explaining how to read and collect data when dealing with different file formats.
+
+	
+	
+GroupBy: - Groupby allows you to group together rows based off of a column and perform an aggregate function on them.
+
+Merging - The merge function allows you to merge Dataframes together using a similar logic as merging SQL Tables together.
+
+ Concatenation - It basically glues together DataFrames. Keep in mind that dimensions should match along the axis you are concatenating on. You can use pd.concat and pass in the list of Dataframes to concatenate together.
+
+Joining - Joining is a convenient method for combining the columns of two potentially differently - indexed DataFrames into a single result dataframe.
+
+
+Recall - The ability to find all relevant instances in a dataset.
+Precision - The proportion of the data points our model says was relevant actually were relevant.
+F1 Score - In cases where we want to find an optimal blend of precision and recall we can combine the two metrics using what we called the F1 score.
+
+F1 = 2 * (precision*recall/precision + recall
+
+Scikit Learn Package -  It is most popular machine learning package for python and had lots of algorithms built-in 
+
+
+1. Data Collection
+2. Data Preprocessing
+3. Algorithm Selection
+4. Training a model
+5. Testing and Validation
+6. Deployment

@@ -1,0 +1,167 @@
+Process mining is analyzing processes based on event data.
+
+Aris process mining enables you to discover measure and analyze
+Your digital business to continuously Improve performance
+
+• process Mining Overview: Navigation, Concepts, Help
+• Project: Manage, Create, Export/Import
+• Data Sets
+• Manage and Create
+• Data Model
+• Automation
+• Analysis Model
+• Calculated Columns
+• Analysis: Manage, Create, Root Cause Analysis
+• Administration
+• User and Roles
+• System Integration
+
+
+
+Project -  blue
+Analysis - white
+Data collection - Green 
+Administration - black
+
+Activity Table -mandatory 
+Enhancement Tables - optional
+
+Activity table consist of
+
+Case id 
+Activity name
+Activity start
+ activity end
+Executed by
+
+Case - instance of process
+Situation - Group of cases
+
+Process Overview 
+Process Explorer
+
+BPA - Business Process Analysis
+KPI - Key Performance Indicators
+
+Process works-------->
+
+Application systems
+Process traces
+Data extraction
+Process discovery
+Process analysis
+
+
+Delete option delete only project and analysis
+
+
+Export 
+1 analysis
+2 analysis model
+3 data model
+4 extractions
+5 transformations
+6 Conformance mapping
+
+
+Data set 
+
+Integration 
+Data 
+Analysis
+
+
+Import table
+
+Upload csv
+Configure parsing
+Configure columns
+Select Data table
+Configure activity columns
+
+Add new App 
+
+App builder
+Process overview
+Process explorer
+Conformance
+
+Add Selection
+
+Attribute selection
+Activity selection
+Process flow selection
+
+Symptom Selection is used for root cause Analysis.
+
+Root cause Analysis:-
+
+Change suggestion
+Remove the guessed additional selection
+See the effect of applying the selection to your analysis
+
+
+Bookmark:-
+Store your selection
+To make it available in other analysis
+Define a default selection
+Will be automatically loaded when analysis is opened
+…You can save an analysis as a bookmark 
+…include selections set for this analysis
+… save a selection created for analysis separately and apply that selection to other analyses  
+
+Transfer reference process 
+..open error connect ….go model ..open it.. In edit mode…select transfer option from open menu
+
+Calculated columns 
+From analysis section 
+
+Calculated case column contents
+
+Free calculation  if then
+Pull up   fetch
+Time span and through
+
+Calculated activity column
+
+Free calculation
+
+Manage process mining requires
+User admin
+Data admin
+Process mining admin
+
+General information is administration
+Storage quota
+Process quota
+License usage
+
+Manage user
+ 
+User privileges
+Function privileges    ----  1. Aris process mining  admin 
+                                             2. data admin
+                                             3. user admin
+
+
+Manage system integration
+
+ Create SAP/JDBC 
+
+Integrate ARIS Process Mining into ARIS Dashboard
+
+Go Aris
+Administration 
+Manage configuration sets
+Default ---Click on edit
+Under components
+Dashboard
+Edit
+Add
+ 
+
+Process Explorer --->
+
+Doted circle ---> frequency ---> Blue
+Doted circle----> Throughput time ---> Red
+Doted circle ----> Measure ----> Purple

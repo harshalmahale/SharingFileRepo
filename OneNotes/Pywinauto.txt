@@ -1,0 +1,29 @@
+Pywinauto :- Set of python modules to automate the Microsoft Windows GUI. 
+  It allows you to send mouse and keyboard actions to windows dialogs and controls.
+
+The list of supported accessibility technologies on Windows:
+
+1.Win32 API (backend="win32") - a default backend for now
+2.MS UI Automation (backend="uia")
+
+ Spy++ can show all the controls the "win32" backend is what you need.
+ 
+Inspect.exe 
+is another great tool created by Microsoft. It’s included into Windows SDK so that it can be found in the following location on x64 Windows:
+
+
+Switch Inspect.exe into UIA mode (using MS UI Automation). If it can show more controls and their properties than Spy++, probably the "uia" backend is your choice.
+
+First you should start your application or connect to an existing app instance. It can be done with an Application object. This is not just a clone of subprocess.Popen, but an entry point for further automation limiting all the scope by process boundaries.
+
+If you want to navigate across process boundaries your entry point is a Desktop object.
+
+Application and Desktop objects are both backend-specific. No need to use backend name in further actions explicitly.
+
+Actual window lookup is performed by wrapper_object() method.
+
+Dialog is a window containing several other GUI elements/controls like buttons, edit boxes etc
+
+start() is used when the application is not running and you need to start it.
+
+connect() is used when the application to be automated is already launched.

@@ -1,0 +1,37 @@
+Recursive queries are SQL queries that can call themselves.
+
+Recursion has two fundamental cases: the base case and the recursive case.
+The base case returns a value without making any recursive calls.
+while the recursive case makes one or more recursive calls.
+
+A CTE is a temporary named result set that you can reference within a SELECT, INSERT, UPDATE, or DELETE statement.
+
+CTEs can break down long queries into smaller, more manageable pieces of logic and make them more readable.
+
+A recursive Common Table Expression (CTE) in SQL Server allows you to perform recursive queries on hierarchical or graph-based data structures, such as organizational charts, family trees, transportation networks, etc.
+
+Syntax:
+
+WITH [RECURSIVE]  CTE_name AS
+(
+	SELECT query (Non Recursive query or the Base query)
+	UNION [ALL]
+	SELECT query (Recursive query using CTE_name [with a termination condition])
+
+)
+
+Select  * From  CTE_name;
+
+Ex:
+
+Display no. from 1 to 10 without using any in built functions
+
+with recursive numbers as 
+(select 1 as n
+ union 
+ select n + 1
+ from numbers where n < 10
+ )
+Select * from numbers;
+
+  

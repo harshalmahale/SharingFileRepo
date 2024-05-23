@@ -1,0 +1,41 @@
+It is a public cloud service that allows individuals and organizations world wide to access the computer resources 
+Housed(contained) in google data center
+
+The company offers cloud services to its global client base for free or pay per use basis depending on the location
+
+GCP Is a suite cloud computing services such as data management, cost management, Resources management over the web
+
+GCP SERVICES
+
+	1. Compute service
+	2. Networking
+	3. Management tools
+	4. Cloud AI
+	5. IOT
+	6. Security and management
+	7. Big data
+	8. Storage services
+
+Google cloud platform is a cloud computing services from google used by businesses of all skills to improve their performance  and expand their scope with the rapid rise in cloud adoption in the post pandemic era the demand for qualified and skilled GCP professionals has also skyrocketed.
+ 
+API stands for - Application Programming Interface
+Goggle API management la APIGEE mhantat
+
+APIGEE helps and manage the entire lifecycle of an API
+
+3 Pillars of APIGEE are:-
+
+	1. Developers portal:- In which you can discover your API 
+	2. Monitoring & Analytics:- In which we can see how much API we can used
+	3. API Runtime:- 
+
+	
+Google Cloud Platform provides a wide range of services that can help organizations of all sizes to build and deploy applications, run data analytics, and manage their IT infrastructure in a scalable and cost-effective manner.
+
+
+Google Cloud Platform is a set of cloud computing services that Google offers, which runs on the same infrastructure that Google uses for its end-user products, such as YouTube, Gmail, and more. Google Cloud Platform offers a variety of services, including: 
+• Compute
+• Network
+• Machine learning and AI
+• Big data processing
+

@@ -1,0 +1,143 @@
+It is object oriented programming language
+It is developed by microsoft
+
+To create a C# project in VS code we have to write the command " dotnet new console"
+.
+.
+dotnet run
+
+Basic Code
+
+usingSystem;
+
+namespaceHelloWorld
+
+
+{
+classProgram
+
+{
+staticvoidMain(string[]args)
+{
+Console.WriteLine("Hello World!");
+}
+}
+}
+
+Line 1: using System -------> we can use classes from the System namespace.
+
+Line 2: namespace is used to organize your code, and it is a container for classes and other namespaces.
+Line 3: The curly braces {} marks the beginning and the end of a block of code.
+Line 4: class is a container for data and methods, which brings functionality to your program. 
+Line 5: Console is a class of the System namespace, which has a WriteLine() method that is used to output/print text. 
+
+
+
+To print the output here is the syntax:
+
+Console.WriteLine()
+
+To read the input here is the syntax:
+
+Console.ReadLine()
+
+
+
+OOP in C#
+
+Procedural programming is about writing procedures or methods that perform operations on the data
+
+while object-oriented programming is about creating objects that contain both data and methods.
+
+If you don't want other classes to inherit from a class, use the sealed keyword:
+
+Sealed class Vehicle
+{
+…
+}
+Class Car : Vehicle
+{
+…
+}
+
+
+ C# provides an option to override the base class method, by adding the virtual keyword to the method inside the base class, and by using the override keyword for each derived class methods:
+
+class Animal  // Base class (parent) 
+{
+  public virtual void animalSound() 
+  {
+    Console.WriteLine("The animal makes a sound");
+  }
+}
+
+class Pig : Animal  // Derived class (child) 
+{
+  public override void animalSound() 
+  {
+    Console.WriteLine("The pig says: wee wee");
+  }
+}
+
+class Dog : Animal  // Derived class (child) 
+{
+  public override void animalSound() 
+  {
+    Console.WriteLine("The dog says: bow wow");
+  }
+}
+
+class Program 
+{
+  static void Main(string[] args) 
+  {
+    Animal myAnimal = new Animal();  // Create a Animal object
+    Animal myPig = new Pig();  // Create a Pig object
+    Animal myDog = new Dog();  // Create a Dog object
+
+    myAnimal.animalSound();
+    myPig.animalSound();
+    myDog.animalSound();
+  }
+}
+
+An interface is a completely "abstract class", which can only contain abstract methods and properties (with empty bodies):
+
+Notes on Interfaces:
+	• Like abstract classes, interfaces cannot be used to create objects (in the example above, it is not possible to create an "IAnimal" object in the Program class)
+	• Interface methods do not have a body - the body is provided by the "implement" class
+	• On implementation of an interface, you must override all of its methods
+	• Interfaces can contain properties and methods, but not fields/variables
+	• Interface members are by default abstract and public
+	• An interface cannot contain a constructor (as it cannot be used to create objects)
+Why And When To Use Interfaces?
+1) To achieve security - hide certain details and only show the important details of an object (interface).
+2) C# does not support "multiple inheritance" (a class can only inherit from one base class). However, it can be achieved with interfaces, because the class can implement multiple interfaces. Note: To implement multiple interfaces, separate them with a comma (see example below).
+
+An enum is a special "class" that represents a group of constants (unchangeable/read-only variables).
+To create an enum, use the enum keyword (instead of class or interface), and separate the enum items with a comma:
+Example:
+
+Enum Level 
+{
+Low,Medium,High
+}
+
+
+Loki is horizontally scalable, highly available, multi-tenant log aggregation system inspired by Prometheus. It is designed to be very cost effective and easy to operate. It does not index the contents of the logs, but rather a set of labels for each log stream. 
+
+
+
+Exception:-
+
+	1. System Exception
+	a. Out of memory Exception
+	b. IO Exception
+	c. Null Reference Exception
+	2. Application Exception
+
+
+Types in .Net
+Classes
+ValueType
+Interfaces
